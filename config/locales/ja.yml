@@ -1,0 +1,27 @@
+ja:
+  books:
+    index:
+      index: '書籍一覧'
+      title: 'タイトル'
+      memo: 'メモ'
+      author: '著者'
+      picture: '画像'
+      show: '詳細'
+      edit: '編集'
+      destroy: '削除'
+      new: '新規登録'
+    edit:
+      index: '編集'
+      show: '詳細'
+      back: '戻る'
+    show:
+      title: 'タイトル：'
+      memo: 'メモ：'
+      author: '著者：'
+      picture: '画像：'
+    new:
+      index: '新規登録'
+      back: '戻る'
+  message:
+    delete:
+      confirm: '削除しますか？'
