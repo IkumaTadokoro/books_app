@@ -25,6 +25,10 @@ ja:
   message:
     delete:
       confirm: '削除しますか？'
+  notice:
+    create: '登録に成功しました'
+    update: '更新に成功しました'
+    destroy: '削除に成功しました'
   helpers:
     submit:
       create: '登録する'
