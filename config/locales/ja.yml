@@ -25,3 +25,8 @@ ja:
   message:
     delete:
       confirm: '削除しますか？'
+  helpers:
+    submit:
+      create: '登録する'
+      update: '更新する'
+
