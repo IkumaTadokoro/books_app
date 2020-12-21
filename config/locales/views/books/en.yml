@@ -1,0 +1,29 @@
+en:
+  dictionary:
+    title: 'Title'
+    memo: 'Memo'
+    author: 'Author'
+    picture: 'Picture'
+    show: 'Show'
+    back: 'Back'
+  books:
+    index:
+      index: 'Books'
+      edit: 'Edit'
+      destroy: 'Destroy'
+      new: 'New Book'
+    edit:
+      index: 'Editing Book'
+    new:
+      index: 'New Book'
+  message:
+    delete:
+      confirm: 'Are you sure?'
+  notice:
+    create: 'Book was successfully created.'
+    update: 'Book was successfully updated.'
+    destroy: 'Book was successfully destroyed.'
+  helpers:
+    submit:
+      create: 'Create Book'
+      update: 'Update Book'
