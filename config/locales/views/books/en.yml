@@ -1,21 +1,17 @@
 en:
-  dictionary:
-    title: 'Title'
-    memo: 'Memo'
-    author: 'Author'
-    picture: 'Picture'
-    show: 'Show'
-    back: 'Back'
   books:
     index:
       index: 'Books'
-      edit: 'Edit'
-      destroy: 'Destroy'
-      new: 'New Book'
     edit:
       index: 'Editing Book'
     new:
       index: 'New Book'
+  button:
+    new: 'New Book'
+    show: 'Show'
+    destroy: 'Destroy'
+    edit: 'Edit'
+    back: 'Back'
   message:
     delete:
       confirm: 'Are you sure?'
