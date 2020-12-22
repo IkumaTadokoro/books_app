@@ -1,11 +1,11 @@
 ja:
   books:
     index:
-      index: '書籍一覧'
+      title: '書籍一覧'
     edit:
-      index: '編集'
+      title: '編集'
     new:
-      index: '新規登録'
+      title: '新規登録'
   button:
     new: '新規登録'
     edit: '編集'

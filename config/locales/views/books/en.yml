@@ -1,11 +1,11 @@
 en:
   books:
     index:
-      index: 'Books'
+      title: 'Books'
     edit:
-      index: 'Editing Book'
+      title: 'Editing Book'
     new:
-      index: 'New Book'
+      title: 'New Book'
   button:
     new: 'New Book'
     show: 'Show'
