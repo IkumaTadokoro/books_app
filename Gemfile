@@ -58,5 +58,6 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'carrierwave'
+gem 'devise'
 gem 'kaminari'
 gem 'parser', '< 2.7.2.0'
