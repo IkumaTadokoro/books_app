@@ -1,0 +1,25 @@
+en:
+  books:
+    index:
+      title: 'Books'
+    edit:
+      title: 'Editing Book'
+    new:
+      title: 'New Book'
+  button:
+    new: 'New Book'
+    show: 'Show'
+    destroy: 'Destroy'
+    edit: 'Edit'
+    back: 'Back'
+  message:
+    delete:
+      confirm: 'Are you sure?'
+  notice:
+    create: 'Book was successfully created.'
+    update: 'Book was successfully updated.'
+    destroy: 'Book was successfully destroyed.'
+  helpers:
+    submit:
+      create: 'Create Book'
+      update: 'Update Book'
