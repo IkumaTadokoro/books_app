@@ -1,3 +1,5 @@
+<h1><%= t '.title' %></h1>
+
 <p>
   <strong><%= "#{User.human_attribute_name('email')}：" %></strong>
   <%= @user.email %>
@@ -18,5 +20,7 @@
   <%= @user.self_introduction %>
 </p>
 
-<%= link_to t('button.edit'), edit_user_registration_path %> |
+<% if @user.id == current_user.id %>
+  <%= link_to t('button.edit'), edit_user_registration_path %> |
+<% end %>
 <%= link_to t('button.back'), users_path %>

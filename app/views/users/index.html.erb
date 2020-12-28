@@ -1,4 +1,4 @@
-`<h1><%= t '.title' %></h1>
+<h1><%= t '.title' %></h1>
 
 <table>
   <thead>
@@ -19,6 +19,9 @@
         <td><%= user.postal_code %></td>
         <td><%= user.self_introduction %></td>
         <td><%= link_to t('button.show'), user %></td>
+        <% if user.id == current_user.id %>
+          <td><%= link_to t('button.edit'), edit_user_registration_path %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
@@ -27,3 +30,7 @@
 <br>
 
 <%= paginate @users %>
+
+<br>
+
+<%= link_to t('books.index.title'), books_path %>
