@@ -17,7 +17,7 @@
 
 <p>
   <strong><%= "#{User.human_attribute_name('self_introduction')}：" %></strong>
-  <%= @user.self_introduction %>
+  <%= safe_join(@user.self_introduction.split("\n"), tag.br) %>
 </p>
 
 <% if @user == current_user %>
