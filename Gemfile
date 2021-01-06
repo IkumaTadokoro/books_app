@@ -40,6 +40,7 @@ group :development do
   gem 'listen', '~> 3.2'
   gem 'web-console', '>= 3.3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'letter_opener_web', '~> 1.0'
   gem 'rubocop-fjord', require: false
   gem 'rubocop-rails', require: false
   gem 'spring'
@@ -58,5 +59,7 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'carrierwave'
+gem 'devise'
+gem 'devise-i18n'
 gem 'kaminari'
 gem 'parser', '< 2.7.2.0'

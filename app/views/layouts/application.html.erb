@@ -17,6 +17,21 @@
         <%= link_to('English', :locale => 'en') %> 日本語
       <% end %>
     </header>
+
+    <p>
+      <% if user_signed_in? %>
+        <%= t('devise.shared.links.sign_in_with_provider', provider: current_user.email ) %>
+        <%= link_to t('devise.registrations.edit.profile'), edit_user_registration_path %> |
+        <%= link_to t('devise.sessions.sign_out'), destroy_user_session_path, method: :delete %>
+      <% else %>
+        <%= link_to t('devise.registrations.new.sign_up'), new_user_registration_path %> |
+        <%= link_to t('devise.sessions.new.sign_in'), new_user_session_path %>
+      <% end %>
+    </p>
+
+    <p id="notice"><%= notice %></p>
+    <p id="alert"><%= alert %></p>
+
     <%= yield %>
   </body>
 </html>
